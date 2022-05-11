@@ -1,0 +1,10 @@
+engine ="mysql"
+engine_version ="5.7.25"
+instance_class ="db.t3.micro"
+allocated_storage ="5"
+username = "dbuser"
+db_name ="db_mysql"
+vpc_security_group_ids =["sg-0f9c108da27c52dcc"]
+subnet_ids=["subnet-07630e0e427e128cd","subnet-06790787cb8a07527"]
+family ="mysql5.7"
+major_engine_version="5.7"
